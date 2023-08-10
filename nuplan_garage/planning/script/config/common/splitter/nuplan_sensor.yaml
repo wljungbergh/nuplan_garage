@@ -1,3 +1,4 @@
+# Splitter that keeps the original train/val/test split but removing logs that do not have the sensor data.
 _target_: nuplan.planning.training.data_loader.log_splitter.LogSplitter
 _convert_: 'all'
 
